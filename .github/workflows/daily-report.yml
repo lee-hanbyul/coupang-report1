@@ -23,5 +23,5 @@ jobs:
           pip install gspread oauth2client python-telegram-bot playwright beautifulsoup4 pandas
           playwright install chromium
 
-      - name: Run report script
-        run: python main.py
+      - name: Run Python Script
+        run: python report.py
